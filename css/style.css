@@ -1,0 +1,198 @@
+body {
+  font-family: "Catamaran", sans-serif;
+  color: #424242;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: Catamaran;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 98px;
+  text-align: center;
+  color: #315d5f;
+}
+h4 {
+  font-size: 30px;
+  font-weight: 500;
+}
+h4,
+article,
+p {
+  color: #424242;
+}
+
+ul {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+
+.header {
+  height: 300px;
+}
+
+.header h1,
+.header h4 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.logo {
+  height: 120px;
+  margin-top: 20px;
+  margin-bottom: -40px;
+}
+
+.introduction h3 {
+  margin-top: 40px;
+}
+.introduction article {
+  width: 450px;
+  margin: 20px 0;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.introduction ul {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.introduction ul li {
+  padding-top: 7px;
+}
+
+.introduction .sympla {
+  margin-top: 120px;
+  margin-left: 100px;
+}
+
+.title {
+  text-align: center;
+  margin: 30px auto 30px auto;
+}
+
+.palestrantes img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  padding-left: 50px;
+}
+
+.palestrantes ul {
+  list-style: none;
+}
+.palestrantes #matheus {
+  font-family: Catamaran;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.palestrantes ul li article {
+  width: 250px;
+  height: 171px;
+  text-align: center;
+  padding-left: 50px;
+}
+
+.texto-al article {
+  font-family: Catamaran;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 35px;
+  text-align: center;
+  margin: 40px auto;
+}
+.texto-al .estilo-1 {
+  color: #315d5f;
+  font-size: 25px;
+  line-height: 32.5px;
+  margin-top: 20px;
+}
+
+.texto-al .estilo-2 {
+  color: #315d5f;
+  font-size: 30px;
+  line-height: 45px;
+  margin-top: 20px;
+}
+
+.texto-al span {
+  color: #315d5f;
+  font-size: 25px;
+  line-height: 32px;
+}
+
+.parceiros {
+  display: none;
+}
+
+.footer {
+  width: 100%;
+  height: 70%;
+  background: #63b256;
+}
+
+.footer img {
+  padding-top: 35px;
+}
+
+.redes-sociais ul {
+  list-style: none;
+  display: flex;
+  margin-left: 170px;
+}
+
+.redes-sociais ul li {
+  padding: 35px 10px 0 10px;
+}
+
+#youtube {
+  padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 797px) {
+  .introduction {
+    margin-top: 230px;
+  }
+
+  .introduction h3 {
+    text-align: center;
+  }
+
+  .introduction article {
+    text-align: center;
+  }
+  .introduction .sympla {
+    margin: 30px auto;
+  }
+
+  .palestrantes {
+    display: block;
+  }
+  .palestrantes ul li p {
+    text-align: center;
+    margin: 020px auto;
+  }
+  .palestrantes article {
+    text-align: center;
+  }
+
+  .palestrantes img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .footer a img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer .redes-sociais {
+    margin: 0 auto;
+  }
+}
