@@ -173,9 +173,10 @@ ul {
   }
 
   .introduction article {
-    max-width: 350px;
     text-align: center;
+    width: 100%;
   }
+
   .introduction .sympla {
     margin: 30px auto;
   }
