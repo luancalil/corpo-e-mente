@@ -173,7 +173,7 @@ ul {
   }
 
   .introduction article {
-    max-width: 370px;
+    max-width: 350px;
     text-align: center;
   }
   .introduction .sympla {
@@ -197,6 +197,9 @@ ul {
     margin: 0 auto 20px 150px;
   }
 
+  .footer {
+    display: block;
+  }
   .footer a img {
     width: 100%;
     margin: 0 auto;
