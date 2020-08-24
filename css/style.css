@@ -174,7 +174,11 @@ ul {
 
   .introduction article {
     text-align: center;
-    width: 100%;
+    width: fit-content;
+  }
+
+  .introduction ul li p {
+    width: fit-content;
   }
 
   .introduction .sympla {
@@ -215,6 +219,6 @@ ul {
     width: 90%;
   }
   .redes-sociais ul li a img#youtube {
-    margin-top: 6px;
+    margin-top: 8px;
   }
 }
