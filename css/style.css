@@ -54,6 +54,10 @@ ul {
   line-height: 27px;
 }
 
+.introduction article span {
+  font-weight: 700;
+}
+
 .introduction ul {
   margin-top: 30px;
   text-align: left;
@@ -74,10 +78,10 @@ ul {
 }
 
 .palestrantes img {
-  width: 300px;
-  height: 300px;
+  width: 150px;
+  height: 150px;
   border-radius: 50px;
-  padding-left: 50px;
+  margin-left: 120px;
 }
 
 .palestrantes ul {
@@ -155,8 +159,9 @@ ul {
 }
 
 @media only screen and (max-width: 797px) {
-  .introduction {
-    margin-top: 230px;
+  .header {
+    width: 100%;
+    height: 100%;
   }
 
   .introduction h3 {
@@ -164,6 +169,7 @@ ul {
   }
 
   .introduction article {
+    max-width: 380px;
     text-align: center;
   }
   .introduction .sympla {
@@ -175,7 +181,7 @@ ul {
   }
   .palestrantes ul li p {
     text-align: center;
-    margin: 020px auto;
+    margin: 20px auto;
   }
   .palestrantes article {
     text-align: center;
@@ -184,7 +190,7 @@ ul {
   .palestrantes img {
     width: 100px;
     height: 100px;
-    margin: 0 auto;
+    margin: 0 auto 20px 150px;
   }
 
   .footer a img {
