@@ -3,12 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--SEO-->
+    <meta
+      name="description"
+      content="Conteúdo diversificado sobre saúde do ponto de vista que vai além do  psicologico."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Mente e Corpo - Saúde e informação em tempo de quarentena"
+    />
+    <meta
+      property="og:description"
+      content="Conteúdo diversificado sobre saúde do ponto de vista que vai além do  psicologico em tempos de quarentena."
+    />
+    <meta property="og:url" content="https://menteecorpo.netlify.app/" />
+    <meta
+      property="og:img"
+      content="https://vexinvest.netlify.app/assets/logo"
+    />
+
+    <link rel="icon" href="/favicon.ico" />
+
     <title>Document</title>
 
     <link
       href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Hotjar Tracking Code for https://menteecorpo.netlify.app -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 1958597, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
@@ -37,7 +77,7 @@
   <body>
     <header class="header container">
       <div class="row">
-        <div class="col-md-12 ">
+        <div class="col-md-12">
           <a href="index.html"
             ><img class="logo" src="/assets/Logo.svg" alt=" logo mente e corpo"
           /></a>
@@ -50,19 +90,24 @@
 
     <section class="introduction container">
       <div class="row">
-        <div class="col-md-6 ">
+        <div class="col-md-6">
           <h3>Queremos te ajudar a se encontar novamente!</h3>
           <article>
             Desde que entramos em quarentena, nos forçamos a fazer o possível em
             casa, adaptando a nossa rotina. Para alguns foi bom, mas 54% das
             pessoas relatam se sentir ansiosas com mais frequência.
-            <br> <br>
+            <br />
+            <br />
 
-            <span class="text-1"> Se você
-              sentiu que a vida deu um nó, queremos te ajudar!</span> <br><br>
-            
-            <span>Convidamos o Dr. Mateus Soares e o Dr. XXXXXX para falar nesta
-              quarta-feira às 20:30. Você verá:</span> 
+            <span class="text-1">
+              Se você sentiu que a vida deu um nó, queremos te ajudar!</span
+            >
+            <br /><br />
+
+            <span
+              >Convidamos o Dr. Mateus Soares e o Dr. XXXXXX para falar nesta
+              quarta-feira às 20:30. Você verá:</span
+            >
             <ul>
               <li>
                 <p>Como nosso corpo mudou na quarentena;</p>
@@ -80,15 +125,15 @@
           </article>
         </div>
 
-        <div class="sympla">
+        <div class="sympla" id="home">
           <div id="sympla-widget-953767" height="auto"></div>
-
+        </div>
       </div>
     </section>
 
     <div class="container title">
       <div class="row">
-        <div class="col-md-12 ">
+        <div class="col-md-12">
           <h1>Conheça os palestrantes:</h1>
         </div>
       </div>
@@ -96,42 +141,64 @@
 
     <section class="container palestrantes">
       <div class="row">
-        <div class="col-md-4 ">
+        <div class="col-md-4">
           <ul>
-            <li><img class="esfera" src="/assets/Mateus.jpeg" alt=""></li>
+            <li><img class="esfera" src="/assets/Mateus.jpeg" alt="" /></li>
             <li><p id="matheus">Dr. Mateus Soares</p></li>
             <li>
               <article>
-                Visando o metabolismo e hormonologia, Mateus traz dicas diárias
-                de alimentação para um dia mais tranquilo. Irá falar da
-                importância de bons hábitos
+                Mateus Soares tem como missão transformar o estilo de vida
+                daqueles que buscam a paz com o próprio corpo, promovendo
+                hábitos saudáveis e longevidade. Médico de formação atua nas
+                áreas de metabolismo endócrino, emagrecimento, fisiologia
+                hormonal e longevidade saudável. Contudo, mantém seu lado
+                comunicador ao passar dicas diárias em suas redes sociais a
+                respeito de saúde e bem-estar para milhares de seguidores.
               </article>
             </li>
-            <li><a href="https://www.instagram.com/dr.mateussoares/"><img src="/assets/insta.svg" alt=""></a></li>
+            <li>
+              <a href="https://www.instagram.com/dr.mateussoares/"
+                ><img src="/assets/insta.svg" alt=""
+              /></a>
+            </li>
           </ul>
         </div>
 
         <div class="col-md-4">
-          <img class="logo-simples"
+          <img
+            class="logo-simples"
             id="#logo-simples"
             src="/assets/Framelogo-simples.svg"
             alt="logo simplificada"
           />
         </div>
 
-        <div class="col-md-4 ">
+        <div class="col-md-4">
           <ul>
-            <li><img class="esfera" src="" alt=""></li>            
-            <li><p >Claudia Bonilha</p></li>
+            <li>
+              <img
+                class="esfera"
+                id="claudia"
+                src="/assets/claudia.jpeg"
+                alt="foto Claudia"
+              />
+            </li>
+            <li><p>Claudia Bonilha</p></li>
             <li>
               <article>
-                Visando o metabolismo e hormonologia, Mateus traz dicas diárias
-                de alimentação para um dia mais tranquilo. Irá falar da
-                importância de bons hábitos
+                Educadora e psicanalista, Claudia Bonilha contribui com a vida
+                de seus pacientes ajudando a identificar, reconhecer e validar
+                as emoções e comportamentos, dando os primeiros passos no
+                caminho para cuidar da saúde mental especialmente em tempos de
+                andemia.
               </article>
             </li>
-            <li><a href="https://www.instagram.com/claudia_bonilhamassuela/?igshid=1eclrh0azd6nl"><img src="/assets/insta.svg" alt=""></a></li>
-
+            <li>
+              <a
+                href="https://www.instagram.com/claudia_bonilhamassuela/?igshid=1eclrh0azd6nl"
+                ><img src="/assets/insta.svg" alt=""
+              /></a>
+            </li>
           </ul>
         </div>
       </div>
@@ -139,19 +206,27 @@
 
     <section class="container texto-al">
       <div class="row">
-        <div class="col-md-12 ">
+        <div class="col-md-12">
           <article>
             A medida que o tempo avança, nosso cérebro cria padrões para
-            economizar energia. No <br> entanto, esses padrões tornam-se hábitos
-            nocivos para a saúde e não nos damos conta <br> disso. Semanas depois,
-            nosso emocional é afetado, não nos sentimos bem com nosso corpo, <br> a
-            ansiedade aumenta e precisamos lidar com isso.
+            economizar energia. No <br />
+            entanto, esses padrões tornam-se hábitos nocivos para a saúde e não
+            nos damos conta <br />
+            disso. Semanas depois, nosso emocional é afetado, não nos sentimos
+            bem com nosso corpo, <br />
+            a ansiedade aumenta e precisamos lidar com isso.
             <br />
-            <p class="estilo-1">Quer saber como lidar e manter uma rotina saudável em poucas
-              semanas?</p>             
-            
-            <p class="estilo-2">GARANTA JÁ SUA VAGA NA LIVE</p>
+            <p class="estilo-1">
+              Quer saber como lidar e manter uma rotina saudável em poucas
+              semanas?
+            </p>
           </article>
+          <button
+            class="btn"
+            onClick="document.getElementById('home').scrollIntoView();"
+          >
+            Garanta já sua vaga na live!
+          </button>
         </div>
       </div>
     </section>
@@ -159,7 +234,7 @@
     <section class="parceiros">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 ">
+          <div class="col-md-12">
             <h1>NOSSOS PARCEIROS</h1>
             <ul>
               <li></li>
@@ -172,22 +247,29 @@
     <footer class="footer">
       <div class="container-sm">
         <div class="row">
-          <div class="col-md-6 ">
+          <div class="col-md-6">
             <a href="index.html"
-              ><img class="logo" src="/assets/logo-branco.svg" alt="logo reduzida"
+              ><img
+                class="logo-branca"
+                src="/assets/logo-branco.svg"
+                alt="logo reduzida"
             /></a>
           </div>
 
-          <div class="col-md-6 col-sm-12  redes-sociais">
+          <div class="col-md-6 col-sm-12 redes-sociais">
             <ul>
               <li>
                 <a href=""><img src="/assets/face.svg" alt="" /></a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/company/mente-e-corpo/"><img src="/assets/in.svg" alt="" /></a>
+                <a href="https://www.linkedin.com/company/mente-e-corpo/"
+                  ><img src="/assets/in.svg" alt=""
+                /></a>
               </li>
               <li>
-                <a href="https://www.instagram.com/menteecorpo_oficial/"><img src="/assets/insta.svg" alt="" /></a>
+                <a href="https://www.instagram.com/menteecorpo_oficial/"
+                  ><img src="/assets/insta.svg" alt=""
+                /></a>
               </li>
               <li>
                 <a href=""
