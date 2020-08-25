@@ -190,7 +190,7 @@ ul {
   }
   .palestrantes ul li p {
     text-align: center;
-    margin: 20px 30px 10px 0;
+    margin: 20px 45px 10px 0;
   }
   .palestrantes article {
     text-align: center;
@@ -199,7 +199,7 @@ ul {
   .palestrantes img {
     width: 100px;
     height: 100px;
-    margin: 0 auto 20px 150px;
+    margin: 0 0 20px 130px;
   }
 
   .footer {
