@@ -236,10 +236,13 @@ ul {
     margin: 0 auto;
   }
   .circulo {
-    margin: 20px auto;
+    margin: 3px auto;
   }
 
-  .circulo-2 {
+  .seconds {
+    display: flex;
+    align-items: baseline;
+    padding-left: 7px;
   }
 
   .palestrantes ul li p {
