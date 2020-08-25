@@ -233,14 +233,16 @@ ul {
   }
 
   .contador {
-    margin: 0 50px;
+    margin: 0 auto;
   }
   .circulo {
     margin: 3px auto;
   }
 
   .seconds {
-    display: none;
+    display: flex;
+    align-items: baseline;
+    padding-left: 7px;
   }
 
   .palestrantes ul li p {
