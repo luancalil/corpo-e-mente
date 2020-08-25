@@ -209,7 +209,7 @@ ul {
   }
 
   .texto-al {
-    width: 50%;
+    width: fit-content;
   }
 
   .footer {
