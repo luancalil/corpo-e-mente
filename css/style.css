@@ -245,6 +245,10 @@ ul {
     padding-left: 7px;
   }
 
+  .palestrante {
+    margin: 0 0;
+  }
+
   .palestrantes ul li p {
     text-align: center;
     margin: 20px 0 10px 0;
