@@ -231,6 +231,10 @@ ul {
     margin-top: 100px;
   }
 
+  .palestrantes li a img {
+    margin: 0 auto;
+  }
+
   .texto-al {
     width: fit-content;
   }
