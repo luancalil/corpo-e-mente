@@ -73,11 +73,11 @@ ul {
 }
 
 .contador {
-  display: flex;
+  display: none;
   margin-left: 450px;
 }
 .circulo {
-  display: inline-block;
+  display: none;
   align-items: center;
   width: 90px;
   height: 90px;
@@ -89,6 +89,36 @@ ul {
   font-size: 14px;
   text-align: center;
 }
+
+.opiniao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #424242;
+}
+
+.opiniao-1 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 600;
+}
+
+.opiniao a button {
+  background: #315d5f;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #65e3e9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 60px;
+  height: 60px;
+  width: 500px;
+  border: none;
+  border-radius: 8px;
+}
+
 .palestrante {
   width: 100%;
 }
@@ -240,6 +270,19 @@ ul {
     width: fit-content;
   }
 
+  .btn-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 70px;
+    margin-bottom: 40px;
+  }
+
+  .opiniao a button {
+    width: 350px;
+    height: 70px;
+  }
   .introduction .sympla {
     margin: 30px auto;
     width: fit-content;
@@ -289,8 +332,8 @@ ul {
   }
 
   .texto-al .btn {
-    width: 80%;
-    height: 90px;
+    width: 350px;
+    height: 70px;
   }
 
   .footer {
