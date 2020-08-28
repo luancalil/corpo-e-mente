@@ -2,7 +2,7 @@
 
 ## Sobre mim
 
-Estudando web design.
+Estudando Ux design e desenvolvimento front-end.
 
 Entre em contato comigo [aqui](https://www.linkedin.com/in/luancalil/)
 
