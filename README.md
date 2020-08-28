@@ -15,7 +15,7 @@ O grupo é composto por 8 pessoas distribuidas em diferentes áreas. Elas são:
 - Luan Calil (desenvolvedor Front-End)
 - Daniela Rozenbaum, Felipe Boin, Ricardo Tupinambá ( Ux designers )
 - Pedro Torres, Thiago Machado (Inside Sales)
-- André Gonçalves, Rafael Oliveira (Marketing)
+- André Gonçalves, Rafael Oliveira, Iago Macedo (Marketing)
 
 ## 🚀 Tech & Recursos
 ✔ [Bootstrap 4](https://getbootstrap.com/)
